@@ -1,0 +1,36 @@
+{
+  "name": "eneskayiklik/yii2-library",
+  "description": "Yii2 Library Module",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "eneskayiklik",
+      "email": "180201010@kocaeli.edu.tr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "eneskayiklik\\library\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "eneskayiklik\\library\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
